@@ -32,3 +32,6 @@ cmake-build-debug/
 ##########################
 ppt/
 *.pdf
+
+# jupyter 
+.ipynb_checkpoints

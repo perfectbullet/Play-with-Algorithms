@@ -1,7 +1,0 @@
-﻿  stdafx.cpp
-  SortTestHelper.cpp
-e:\cpp_workspace\u0g2ok\vs_code\02-sorting-basic\03-generate-test-cases\03-generate-test-cases\03-generate-test-cases\sorttesthelper.cpp(11): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  03-Generate-Test-Cases.cpp
-  正在生成代码...
-  03-Generate-Test-Cases.vcxproj -> E:\cpp_workspace\u0g2ok\vs_code\02-Sorting-Basic\03-Generate-Test-Cases\03-Generate-Test-Cases\Debug\03-Generate-Test-Cases.exe
-  03-Generate-Test-Cases.vcxproj -> E:\cpp_workspace\u0g2ok\vs_code\02-Sorting-Basic\03-Generate-Test-Cases\03-Generate-Test-Cases\Debug\03-Generate-Test-Cases.pdb (Full PDB)

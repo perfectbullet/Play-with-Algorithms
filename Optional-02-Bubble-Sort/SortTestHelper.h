@@ -1,14 +1,14 @@
 //
-// Created by liuyubobobo on 7/13/16.
+// Created by liuyubobobo on 7/15/16.
 //
 
-#ifndef INC_04_INSERTION_SORT_SORTTESTHELPER_H
-#define INC_04_INSERTION_SORT_SORTTESTHELPER_H
+#ifndef OPTIONAL_01_BUBBLE_SORT_SORTTESTHELPER_H
+#define OPTIONAL_01_BUBBLE_SORT_SORTTESTHELPER_H
 
 #include <iostream>
 #include <algorithm>
-#include <string>
 #include <ctime>
+#include <string>
 #include <cassert>
 
 using namespace std;
@@ -27,11 +27,29 @@ namespace SortTestHelper {
         return arr;
     }
 
-    // 拷贝整型数组a中的所有元素到一个新的数组, 并返回新的数组
-    int *copyIntArray(int *a, int n){
+    // 生成一个近乎有序的数组
+    // 首先生成一个含有[0...n-1]的完全有序数组, 之后随机交换swapTimes对数据
+    // swapTimes定义了数组的无序程度
+    int *generateNearlyOrderedArray(int n, int swapTimes){
 
         int *arr = new int[n];
-        //* 在VS中, copy函数被认为是不安全的, 请大家手动写一遍for循环:)
+        for(int i = 0 ; i < n ; i ++ )
+            arr[i] = i;
+
+        srand(time(NULL));
+        for( int i = 0 ; i < swapTimes ; i ++ ){
+            int posx = rand()%n;
+            int posy = rand()%n;
+            swap( arr[posx] , arr[posy] );
+        }
+
+        return arr;
+    }
+
+    // 拷贝整型数组a中的所有元素到一个新的数组, 并返回新的数组
+    int *copyIntArray(int a[], int n){
+
+        int *arr = new int[n];
         copy(a, a+n, arr);
         return arr;
     }
@@ -74,4 +92,4 @@ namespace SortTestHelper {
 
 };
 
-#endif //INC_04_INSERTION_SORT_SORTTESTHELPER_H
+#endif //OPTIONAL_01_BUBBLE_SORT_SORTTESTHELPER_H
