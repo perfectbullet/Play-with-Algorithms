@@ -33,6 +33,7 @@ cmake-build-debug/
 ppt/
 *.pdf
 
+<<<<<<< HEAD
 
 # Mac OS
 .DS_Store
@@ -435,3 +436,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+=======
+# jupyter 
+.ipynb_checkpoints
+>>>>>>> 182b6062189bdd26ed5092d9c6187a2ce7f1b7d0

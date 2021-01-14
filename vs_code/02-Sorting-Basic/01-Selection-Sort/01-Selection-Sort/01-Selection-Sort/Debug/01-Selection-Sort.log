@@ -1,8 +1,0 @@
-﻿  stdafx.cpp
-  Student.cpp
-  01-Selection-Sort.cpp
-e:\cpp_workspace\u0g2ok\vs_code\02-sorting-basic\01-selection-sort\01-selection-sort\01-selection-sort\01-selection-sort.cpp(37): warning C4838: 从“double”转换到“float”需要收缩转换
-e:\cpp_workspace\u0g2ok\vs_code\02-sorting-basic\01-selection-sort\01-selection-sort\01-selection-sort\01-selection-sort.cpp(37): warning C4305: “初始化”: 从“double”到“float”截断
-  正在生成代码...
-  01-Selection-Sort.vcxproj -> E:\cpp_workspace\u0g2ok\vs_code\02-Sorting-Basic\01-Selection-Sort\01-Selection-Sort\Debug\01-Selection-Sort.exe
-  01-Selection-Sort.vcxproj -> E:\cpp_workspace\u0g2ok\vs_code\02-Sorting-Basic\01-Selection-Sort\01-Selection-Sort\Debug\01-Selection-Sort.pdb (Full PDB)
